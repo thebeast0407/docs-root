@@ -15,5 +15,6 @@ Overall Project Documentation
    :maxdepth: 1
 
    introduction
+   terminology
 
 This overall project documentation is new. For now, you can find links to existing documentation in `the bigchaindb/bigchaindb repository <https://github.com/bigchaindb/bigchaindb>`_.
