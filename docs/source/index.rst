@@ -1,20 +1,17 @@
 BigchainDB Documentation
 ========================
 
-Subproject Documentation
-------------------------
+Subproject Docs
+---------------
 
-- `BigchainDB Server Docs <https://bigchaindb.readthedocs.io/projects/server/en/latest/>`_
-- BigchainDB Python Driver Docs - link coming soon
-- BigchainDB Common Docs (e.g. for the transaction model) - link coming soon
+- `BigchainDB Server <https://bigchaindb.readthedocs.io/projects/server/en/latest/>`_
+- `BigchainDB Python Driver <https://bigchaindb.readthedocs.io/projects/py-driver/en/latest/index.html>`_
 
-Overall Project Documentation
------------------------------
+About BigchainDB
+----------------
 
 .. toctree::
    :maxdepth: 1
 
    introduction
    terminology
-
-This overall project documentation is new. For now, you can find links to existing documentation in `the bigchaindb/bigchaindb repository <https://github.com/bigchaindb/bigchaindb>`_.
