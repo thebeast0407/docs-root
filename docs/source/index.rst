@@ -8,10 +8,12 @@ and
 `native support for assets <https://bigchaindb.readthedocs.io/projects/server/en/latest/topic-guides/assets.html>`_.
 You can read about the motivations, goals and high-level architecture in the `BigchainDB whitepaper <https://www.bigchaindb.com/whitepaper/>`_.
 
+At a high level, one can communicate with a BigchainDB cluster (set of nodes) using the BigchainDB Client-Server HTTP API, or a wrapper for that API, such as the BigchainDB Python Driver. Each BigchainDB node runs BigchainDB Server and various other software. The `terminology page <terminology.html>`_ explains some of those terms in more detail.
 
-At a high level, one can communicate with a BigchainDB cluster (set of nodes) using the `BigchainDB Client-Server HTTP API <http://docs.bigchaindb.com/projects/server/en/latest/drivers-clients/http-client-server-api.html>`_, or a wrapper for that API, such as the `BigchainDB Python Driver <http://docs.bigchaindb.com/projects/py-driver/en/latest/index.html#>`_. Each BigchainDB node runs `BigchainDB Server <http://docs.bigchaindb.com/projects/server/en/latest/index.html>`_ and various other software.
-
-`BigchainDB Server Quickstart <http://docs.bigchaindb.com/projects/server/en/latest/quickstart.html>`_
+- `HTTP API Docs <http://docs.bigchaindb.com/projects/server/en/latest/drivers-clients/http-client-server-api.html>`_
+- `Python Driver Docs <http://docs.bigchaindb.com/projects/py-driver/en/latest/index.html#>`_
+- `Server Docs <http://docs.bigchaindb.com/projects/server/en/latest/index.html>`_
+- `Server Quickstart <http://docs.bigchaindb.com/projects/server/en/latest/quickstart.html>`_
 
 
 More About BigchainDB
