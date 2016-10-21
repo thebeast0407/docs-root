@@ -30,5 +30,9 @@ More About BigchainDB
    immutable
    bft
    assets
+   asset-model
    smart-contracts
+   crypto-conditions
+   transactions
+   transaction-model
    timestamps
