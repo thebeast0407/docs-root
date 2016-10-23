@@ -1,5 +1,7 @@
 # The Transaction Model
 
+A transaction has the following structure:
+
 ```json
 {
     "id": "<hash of transaction, excluding signatures (see explanation)>",
@@ -29,7 +31,7 @@ Here's some explanation of the contents of a transaction:
     See [Conditions and Fulfillments](#conditions-and-fulfillments) below.
     - `conditions`: List of conditions. Each _condition_ is a _crypto-condition_ that needs to be fulfilled by a transfer transaction in order to transfer ownership to new owners.
     See [Conditions and Fulfillments](#conditions-and-fulfillments) below.
-    - `operation`: String representation of the operation being performed (currently either "CREATE" or "TRANSFER"). It determines how the transaction should be validated.
+    - `operation`: String representation of the operation being performed (currently either "CREATE", "TRANSFER" or "GENESIS"). It determines how the transaction should be validated.
     - `timestamp`: The Unix time when the transaction was created. It's provided by the client. See [the section on timestamps](timestamps.html).
 	- `asset`: Definition of the digital asset. See next section.
     - `metadata`:

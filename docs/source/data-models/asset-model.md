@@ -1,8 +1,8 @@
 # The Digital Asset Model
 
-To avoid redundant data in transactions the digital asset model is different for `CREATE` and `TRANSFER` transactions.
+To avoid redundant data in transactions, the digital asset model is different for `CREATE` and `TRANSFER` transactions.
 
-The digital asset properties are defined at creation time in a `CREATE` transaction with the following model:
+A digital asset's properties are defined in a `CREATE` transaction with the following model:
 ```json
 {
     "id": "<uuid>",
@@ -16,7 +16,7 @@ The digital asset properties are defined at creation time in a `CREATE` transact
 For `TRANSFER` transactions we only keep the asset id.
 ```json
 {
-    "id": "<uuid>",
+    "id": "<uuid>"
 }
 ```
 
