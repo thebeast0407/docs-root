@@ -23,7 +23,7 @@ A transaction has the following structure:
 Here's some explanation of the contents of a transaction:
 
 - `id`: The hash of everything inside the serialized `transaction` body (i.e. `fulfillments`, `conditions`, `operation`, `timestamp` and `data`; see below), with one wrinkle: for each fulfillment in `fulfillments`, `fulfillment` is set to `null`. The `id` is also the database primary key.
-- - `version`: Version number of the transaction model, so that software can support different transaction models.
+- `version`: Version number of the transaction model, so that software can support different transaction models.
 - `transaction`:
     - `fulfillments`: List of fulfillments. Each _fulfillment_ contains a pointer to an unspent asset
     and a _crypto fulfillment_ that satisfies a spending condition set on the unspent asset. A _fulfillment_
